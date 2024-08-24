@@ -1,0 +1,45 @@
+/* Notifications.css */
+
+.notifications-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notifications-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .notification-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #0052cc; /* Blue border to match the navbar */
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-item h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #0052cc;
+  }
+  
+  .notification-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .notification-item span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  

@@ -1,0 +1,62 @@
+/* Footer Styles */
+.bg-teal {
+    background-color: #008080; /* Teal background similar to the navbar */
+}
+
+.footer-link {
+    font-size: 0.9rem;
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Ensure link color matches the footer text color */
+}
+
+.footer-link:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 1rem;
+    text-decoration: none; /* Remove underline from social icons */
+}
+
+.footer h6 {
+    border-bottom: none; /* Remove underline/border from section headings */
+    margin-bottom: 1rem; /* Adjust spacing as needed */
+}
+
+.list-unstyled {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem; /* Adjust spacing between list items */
+}

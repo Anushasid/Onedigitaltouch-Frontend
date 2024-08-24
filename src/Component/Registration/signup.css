@@ -1,0 +1,91 @@
+/* Full height for centering */
+.vh-100 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center the container and give it a max width */
+.container {
+    max-width: 800px; /* Adjusted for a balanced width */
+    width: 100%;
+    padding: 20px; /* Added padding for spacing */
+    margin: auto;
+}
+
+
+
+
+/* Form control styling */
+.form-control {
+    border-radius: 10px; /* Slightly reduced border radius for better form aesthetics */
+    border: 1px solid #ced4da; /* Border color for consistency */
+    padding: 10px 15px; /* Increased padding for better input appearance */
+    font-size: 1rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px; /* Added padding for a better button size */
+    border-radius: 10px; /* Consistent border radius */
+    font-size: 1rem; /* Ensure font size is consistent */
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Ensure labels and inputs align neatly */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Adequate spacing between form groups */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%; /* Adjust for smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .btn-primary {
+        width: 100%; /* Make button full-width on smaller screens */
+    }
+}
+
+/* Centering the form header */
+.text-center {
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing below header */
+}
+
+.h1 {
+    font-size: 2rem; /* Adjust to your desired size */
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2; /* Adjust line height */
+    word-spacing: normal; /* Reset word spacing if altered */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    margin-bottom: 20px; /* Adds some space below the header */
+}
+
+/* Add margin to the form to separate it from the edges */
+form {
+    margin: 0 auto;
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+.container-box {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40; /* Dark color for better readability */
+}
+
+.card-text {
+  color: #6c757d; /* Muted text color */
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff; /* Primary color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.input-group {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input.form-control {
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+.btn-primary {
+  border-radius: 0.25rem;
+}

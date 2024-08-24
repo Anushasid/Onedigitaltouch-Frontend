@@ -1,0 +1,49 @@
+.navbar {
+  padding: 0.5rem 1rem;
+  background:  #18b0da; /* Blue gradient */
+  border-bottom: 2px solid #0044aa; /* A solid border at the bottom of the navbar for emphasis */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFD700; /* Gold color on hover for better visibility */
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #FFD700; /* Gold color on hover for the brand as well */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* Additional styles for dropdown */
+.dropdown-menu {
+  background-color: #9dd0de; /* Background color for the dropdown */
+  border: none; /* No border */
+  
+}
+
+.dropdown-item {
+  color: #fff; /* White text for dropdown items */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #FFD700; /* Gold background on hover */
+  color: #0044aa; /* Dark blue text on hover */
+}

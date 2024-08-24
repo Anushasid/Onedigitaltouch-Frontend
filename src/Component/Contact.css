@@ -1,0 +1,45 @@
+/* Contact.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-section {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-section h2 {
+    font-size: 1.5rem;
+    color: #008080; /* Teal color for headings */
+  }
+  
+  .contact-section p {
+    font-size: 1rem;
+    color: #333; /* Darker text color for readability */
+  }
+  
+  .contact-section a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  

@@ -1,0 +1,40 @@
+/* styles.css */
+
+.services-box {
+    border: 1px solid #ddd; /* Light border around the container */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    padding: 20px;          /* Padding inside the container */
+    background-color: #fff; /* Background color */
+  }
+  
+  .card {
+    border: none;           /* Remove default border */
+    border-radius: 8px;    /* Rounded corners for cards */
+    overflow: hidden;      /* Ensure the image does not overflow */
+  }
+  
+  .card-body {
+    padding: 20px;         /* Padding inside the card body */
+  }
+  
+  .bg-image img {
+    border-bottom: 1px solid #ddd; /* Border at the bottom of the image */
+  }
+  
+  /* Ensure proper spacing and centering of cards */
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
